@@ -12,7 +12,7 @@ from src.infer_pack.models import (
     SynthesizerTrnMs768NSFsid_nono,
 )
 from src.my_utils import load_audio
-from src.vc_infer_pipeline import VC
+from src.infer.pipeline import VC
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
